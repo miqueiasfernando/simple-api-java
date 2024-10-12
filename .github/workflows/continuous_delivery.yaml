@@ -6,8 +6,8 @@ on:
           - develop
  
 env:
-  IMAGE_NAME: simple-api-java
-  AZURE_WEBAPP_NAME: simple-api-java
+  IMAGE_NAME: fiap-simple-api-dev-98516
+  AZURE_WEBAPP_NAME: fiap-simple-api-dev-98516
  
 jobs:
     build:
