@@ -2,15 +2,13 @@ name: Continuous Delivery
 
 on:
     push:
-        branches: "feature/main"
- 
-env:
-  IMAGE_NAME: simple-api-java
-  AZURE_WEBAPP_NAME: simple-api-java
+        branches:
+          - develop
  
 jobs:
     build:
         runs-on: ubuntu-latest
+        
         steps:             
         -  
             name: Set up Docker Buildx
